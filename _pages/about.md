@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in computer science program at Iowa State University (ISU). At ISU, I work in the labratory for software design with my supervisor, [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh) and hosted on GitHub pages. 
+I am a Ph.D. student in computer science program at Iowa State University (ISU). At ISU, I work in the labratory for software design with my supervisor, [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh).
 
 Research
 ------
-My research interests boardly lays at the intersection of software engineering, data science , and deep learning. Currently, I work on a shared data science infrastructure for bioinformatics, [Boag] (http://boa.cs.iastate.edu/boag/index.php). In the coming years, I plan to work 
+My research interests boardly lays at the intersection of software engineering, data science , and deep learning. Currently, I work on a shared data science infrastructure for bioinformatics, [Boag] (http://boa.cs.iastate.edu/boag/index.php). 
 
