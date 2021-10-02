@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my resume here](http://fraolbatole.github.io/files/resume.pdf)
+To download the pdf format of my resume, [click here](http://fraolbatole.github.io/files/resume.pdf)
+======
+
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
