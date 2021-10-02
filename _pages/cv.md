@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+[Download my resume here](http://fraolbatole.github.io/files/resume.pdf)
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
