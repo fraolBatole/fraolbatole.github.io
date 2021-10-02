@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-To download the pdf format of my resume, [click here](http://fraolbatole.github.io/files/resume.pdf)
+* To download the pdf format of my resume, [click here](http://fraolbatole.github.io/files/resume.pdf)
 ======
 
 Education
