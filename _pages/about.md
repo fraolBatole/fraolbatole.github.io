@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in computer science program at Iowa State University (ISU). At ISU, I work in the labratory for software design with my supervisor, [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh).
+I am a Ph.D. student in the computer science program at Iowa State University (ISU). At ISU, I work in the labratory for software design with my supervisor, [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh).
 
 Research
 ------
