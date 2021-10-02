@@ -9,15 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-======
 * To download the pdf format of my resume, [click here](http://fraolbatole.github.io/files/resume.pdf)
 
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D. in Computer Science, Iowa State University, 2023 (expected)
+* Ph.D. in Computer Science, University of North Dakota, 2020 (Transferred)
+* B.S. in Software Engineering, Addis Ababa Science and Technology University, 2018
 
 Work experience
 ======
@@ -39,18 +38,6 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
