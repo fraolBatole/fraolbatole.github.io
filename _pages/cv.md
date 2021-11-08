@@ -45,12 +45,6 @@ Skills
   * Sub-skill 2.3 -->
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
 * Co-Founder at SmartMasa.  Addis Ababa, Ethiopia
