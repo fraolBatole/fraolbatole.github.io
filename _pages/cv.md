@@ -40,9 +40,6 @@ Skills
 ======
 * Programming, Scripting Languages: Java, Python, PHP, C/C++, JavaScript, CSS, HTML
 * Frameworks, OS: Spring boot, TensorFlow, Django, Symphony, GitHub, Linux, Windows, MacOS
-  <!-- * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3 -->
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
   
 Service and leadership
