@@ -12,5 +12,5 @@ I am a Ph.D. student in the computer science program at Iowa State University (I
 
 Research
 ------
-My research interests boardly lays at the intersection of software engineering, data science , and deep learning. Currently, I work on a shared data science infrastructure for bioinformatics, [Boag](http://boa.cs.iastate.edu/boag/index.php). 
+My research interests broadly lays at the intersection of software engineering, data science, and deep learning. Currently, I work on a shared data science infrastructure for bioinformatics, [Boag](http://boa.cs.iastate.edu/boag/index.php). 
 
