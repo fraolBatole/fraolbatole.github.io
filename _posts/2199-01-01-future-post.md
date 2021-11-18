@@ -3,7 +3,7 @@ title: 'How to get a graduate study admission with full funding in US universiti
 date: 2020-09-05
 permalink: https://fraol.medium.com/how-to-get-admitted-for-a-graduate-study-with-full-funding-in-us-universities-9528ee12c267
 tags:
-  - cool posts
-  - category1
-  - category2
+  - grad study
+  - college
+  - scholarships
 ---
