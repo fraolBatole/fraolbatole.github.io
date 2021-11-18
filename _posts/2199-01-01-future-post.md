@@ -1,11 +1,8 @@
 ---
-title: 'This blogs Will get updated shortly'
-date: 2021-11-01
-permalink: #/posts/2012/08/blog-post-4/
+title: 'How to get a graduate study admission with full funding in US universities'
+date: 2020-09-05
+permalink: https://fraol.medium.com/how-to-get-admitted-for-a-graduate-study-with-full-funding-in-us-universities-9528ee12c267
 tags:
   - cool posts
   - category1
   - category2
----
-
-Will be updated shortly
