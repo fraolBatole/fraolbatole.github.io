@@ -38,12 +38,17 @@ Work experience
     
 Skills
 ======
+* ML Methods: Deep Learning, NLP, Logistic Regression
+* ML Library: TensorFlow, Pandas
 * Programming, Scripting Languages: Java, Python, PHP, C/C++, JavaScript, CSS, HTML
-* Frameworks, OS: Spring boot, TensorFlow, Django, Symphony, GitHub, Linux, Windows, MacOS
+* PL Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
   
 Service and leadership
 ======
+* Founder at JawisAdvisory.  Addis Ababa, Ethiopia
+  * At Jawis, we guide students, especially from underrepresented community, to get into a fully-funded graduate program.
+
 * Co-Founder at SmartMasa.  Addis Ababa, Ethiopia
   * Achieved a leadership, business and technological skill while working on a precision
     farming project, which aims to improve productivity of smallholder farmers

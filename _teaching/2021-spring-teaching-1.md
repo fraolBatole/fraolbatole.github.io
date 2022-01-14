@@ -1,7 +1,7 @@
 ---
-title: "Teaching experience at ISU"
+title: "COM S 342 Principles of Programming"
 collection: teaching
-type: "COM S 342 Principles of Programming"
+type: "Undergraduate course"
 permalink: /teaching/2021-spring-teaching-1
 venue: "Iowa State University, Computer Science Department"
 date: 2021-01-01
