@@ -3,12 +3,12 @@ title: "Teaching experience at ISU"
 collection: teaching
 type: "COM S 342 Principles of Programming"
 permalink: /teaching/2021-spring-teaching-1
-venue: "University 1, Department"
+venue: "Iowa State University, Computer Science Department"
 date: 2021-01-01
 location: "Ames, Iowa"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+In this course, I helped students with several programming concepts, including debugging their programs, and developed test cases to grading students’ submission. Additionally, as a head TA for the course, Principles of Programming, I had recitations covreing several programming design concepts, which in turn helped me improve my communication/teaching skill.
 
 Heading 1
 ======
