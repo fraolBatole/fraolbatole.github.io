@@ -10,5 +10,4 @@ location: "Ames, Iowa"
 
 In this course, I helped students with several programming concepts, including debugging their programs, and developed test cases to grading students’ submission. Additionally, as a head TA for the course, Principles of Programming, I had recitations covreing several programming design concepts, which in turn helped me improve my communication/teaching skill.
 
-Heading 1
 ======
