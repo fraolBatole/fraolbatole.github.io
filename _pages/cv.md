@@ -14,13 +14,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Computer Science, Iowa State University, 2023 (expected)
+* Ph.D. in Computer Science, Iowa State University, 2024 (expected)
 * Ph.D. in Computer Science, University of North Dakota, 2020 (Transferred)
 * B.S. in Software Engineering, Addis Ababa Science and Technology University, 2018
 
 Work experience
 ======
-* Summer 2021: Research Assistant
+* Feb 2021 - Present: Research Assistant
   * Labratory for Software Design, Iowa State University
   * Duties included: Working on a shared data science infrastructure for bioinformatics
   * Supervisor: [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh)
@@ -38,12 +38,18 @@ Work experience
     
 Skills
 ======
-* ML Methods: Deep Learning, NLP, Logistic Regression
-* ML Library: TensorFlow, Pandas
-* Programming, Scripting Languages: Java, Python, PHP, C/C++, JavaScript, CSS, HTML
-* PL Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
+* ML Library: TensorFlow, Pandas, Numpy
+* Programming Languages: Python, Java, C++, PHP, JavaScript, CSS, HTML
+* Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
-  
+
+Skills
+======
+* ML Library: TensorFlow, Pandas, Numpy
+* Programming Languages: Python, Java, C++, PHP, JavaScript, CSS, HTML
+* Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
+* Database Technology: MySQL, SQLite, MSSQL, Firebase
+
 Service and leadership
 ======
 * Founder at JawisAdvisory.  Addis Ababa, Ethiopia
