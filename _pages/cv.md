@@ -24,37 +24,42 @@ Education
 Research exprience
 ======
 * Laboratory for Software Engineering, Iowa State University					            
-  *	Studied 5+ prior methodologies to improve auto-code completion tools to increase developers’ productivity.
-  *	Investigate language models and software engineering techniques to improve incorrect protein functions annotations in large databases.
-  *	Prepare insightful presentations by reading and analyzing top-tier conference papers.
-  *	Collaborate with post-docs and other lab members on writing top-tier conference papers. 
+  * Researched and implemented software engineering (SE) methodologies to enhance auto-code completion tools, relatively improving state-of-the-art tools. 
+  * Investigated language models and SE techniques to clean protein function misannotations in large databases. 
+  * Analyzed top-tier conference papers to create insightful presentations that effectively communicated ideas. 
+  * Collaborated with post-docs and lab members to write and publish top-tier conference papers, contributing to advancing scientific knowledge in software engineering and deep learning.
   * Supervisor: [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh)
 
 Skills
 ======
-* ML Library: TensorFlow, Pandas, Numpy
 * Programming Languages: Python, Java, C++, PHP, JavaScript, CSS, HTML
+* DL/ML Library: TensorFlow/Keras, Python, Hugging Face Libraries, Pandas, Numpy
 * Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
 
 Additional experience
 ======
 * Feb 2021 - Present: Graduate Teaching Assistant
-  * Teach 80+ students the basics of programming concepts, program debugging, and developing test cases.
-  * Worked as a head TA for Principles of Programming. Tasks include managing more than 3 teaching assistants, holding office hours, and communicating challenges with more than 80+ students.
+  * Taught 80+ students the principles of programming language, program debugging, and developing test cases.
+  * Headed the Principles of Programming course, working closely with a team of 3 teaching assistants to facilitate a collaborative and inclusive learning environment.
+  * Designed and delivered highly effective lectures and exercises during recitation periods.
+  * Conducted weekly office hours, providing personalized support and feedback to students, leading to notable improvements in grades and overall academic performance.
 
 * Aug 2019 to Nov 2019: Software Engineer
   * Med-Innovation, Addis Ababa, Ethiopia
-  * Duties included: Designed and Implemented CRM web application, using Spring boot and Vaadin, which is used for the marketing
-    department and aimed to boost the company’s revenue by 20%
-  * Supervisor: Vittorio 
+  * Collaborated with a team of 2 members to design and implement a customer relationship management (CRM) system using Spring Boot and Vaadin.
+  * Successfully launched the CRM project within a strict timeline, demonstrating exceptional project management and teamwork skills.
+  * Implemented CRM resulted in a 10% increase in the company's customer retention rate within 2 months, providing measurable business value.
 
 * June 2017 to Aug 2017: Software Engineer Intern 
   * Kifiya Financial Technology, Addis Ababa, Ethiopia
-  * Duties included: Contributed in the development of NFC based Mass Transit project by collaborating with talented teams which helped me improve my skills on CSS, JavaScript, HTML and Spring Boot
+  * Identified and proposed improvements to the user experience (UX) for 2 projects, resulting in enhanced site navigation and improved customer satisfaction.
+  * Successfully completed the project on time, delivering high-quality work and effectively communicating proposed ideas to senior executives.
+
 
 Services and Award
 ======
+* Selected for the Google Cloud Research Innovators Program                                 March 2023
 * Received Travel grant from BlackInAI group to attend NeurIPS'22                        November 2022
 * Awarded a Google Cloud Research Credits program ($1000)				                             June 2022
 * Student Volunteer at SPLASH’21 Conference (Chicago, IL)				                         November 2021
@@ -65,5 +70,7 @@ Leadership
   * I founded JawisAdvisory to guide students interested in pursuing graduate study. Mostly, the guidance is tailored for underrepresented groups, as I'm more familiar with the process and also a way of giving back to my community. 
 
 * Co-Founder at SmartMasa.  Addis Ababa, Ethiopia
-  * Achieved a leadership, business and technological skill while working on a precision
-    farming project, which aims to improve productivity of smallholder farmers
+  * Led our team to pitch a precision farming project to large incubation centers and investors in Ethiopia, resulting in more than $10K in funding and support for the initiative. 
+  * Demonstrated exceptional leadership, business, and technological skills while working on the web and mobile-based precision farming project aimed at improving the lives of smallholders.
+
+

@@ -5,7 +5,7 @@ permalink: /publication/ICSE_23
 # excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2023-05-14
 venue: 'International Conference on Software Engineering (ICSE), Melbourne, Australia, 2023.'
-paperurl: 'http://fraolbatole.github.io/files/rnn_icse23.pdf'
+paperurl: [Download paper here](http://fraolbatole.github.io/files/rnn_icse23.pdf)
 citation: Imtiaz, Sayem Mohammad, et al. "Decomposing a Recurrent Neural Network into Modules for Enabling Reusability and Replacement." International Conference on Software Engineering (ICSE), Melbourne, Australia, 2023.
 ---
 <!-- In 45th International Conference on Software Engineering (ICSE), Melbourne, Australia, 2023. -->

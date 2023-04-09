@@ -8,9 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in the computer science program at Iowa State University (ISU). Currently, I work as a research assistnat at the laboratory for software design with my supervisor, [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh). Before I decided to move to ISU, I was enrolled at UND and took some graduate-level courses for a year. Prior to that, I received my undergraduate degree in Software Engineering from Addis Ababa Science and Technology University, where I graduated Magna cum laude.
+I am pursuing a Ph.D. in the computer science program at Iowa State University (ISU) and working as a research assistant at the Laboratory for Software Design under the supervision of [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh). Before joining ISU, I completed a year of graduate-level courses at the University of North Dakota (UND). I earned my undergraduate degree in Software Engineering from Addis Ababa Science and Technology University, where I graduated Magna cum laude.
 
 Research
 ------
-My research interests mostly entail concepts from software engineering and program analysis to enhance deep learning models and LLMs. Specifically,  I explore static analysis methodologies i) to mitigate bugs in deep-learning models and ii) to improve the performance of LLMs on source code representation. Prior to that, I worked on a shared data science infrastructure for bioinformatics,[Boag](http://boa.cs.iastate.edu/boag/index.php). 
+My primary research interests revolve around the application of software engineering and program analysis concepts to enhance deep learning models and large language models (LLMs). Specifically, my current work focuses on exploring static analysis methodologies to achieve two main objectives: i) mitigating bugs in deep learning models and ii) improving the performance of LLMs for source code representation. Prior to this, I gained experience working on a shared data science infrastructure for bioinformatics known as [Boag](http://boa.cs.iastate.edu/boag/index.php). 
+
 
