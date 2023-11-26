@@ -30,11 +30,15 @@ Research exprience
   * Collaborated with post-docs and lab members to write and publish top-tier conference papers, contributing to advancing scientific knowledge in software engineering and deep learning.
   * Supervisor: [Dr. Hridesh Rajan](https://www.cs.iastate.edu/hridesh)
 
+Research Area
+======
+* I'm mostly work at the intersection of software engineering and large langauge models.   
+
 Skills
 ======
 * Programming Languages: Python, Java, C++, PHP, JavaScript, CSS, HTML
-* DL/ML Library: TensorFlow/Keras, Python, Hugging Face Libraries, Pandas, Numpy
-* Frameworks, OS: Spring boot, Django, Symphony, GitHub, Linux, Windows, MacOS
+* DL/ML Library: TensorFlow/Keras, Pytorch, Pytorch-lightning, HuggingFace Libraries, Pandas, Numpy
+* Frameworks, OS: Spring boot, GitHub, Linux, Windows, MacOS
 * Database Technology: MySQL, SQLite, MSSQL, Firebase
 
 Additional experience
