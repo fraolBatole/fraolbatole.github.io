@@ -2,7 +2,6 @@
 title: "Decomposing a Recurrent Neural Network into Modules for Enabling Reusability and Replacement"
 collection: publications
 permalink: /publication/ICSE23
-excerpt: 'pp'
 date: 2023-05-14
 venue: 'ICSE'
 paperurl: 'http://fraolbatole.github.io/files/rnn_icse23.pdf'
