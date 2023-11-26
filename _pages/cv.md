@@ -15,7 +15,7 @@ redirect_from:
 Education
 ======
 * Iowa State University
-  * Ph.D., Computer Science, GPA: 3.67/4.0  						                      Expected December 2024
+  * Ph.D., Computer Science, GPA: 3.67/4.0  						                           Jan 2021 - Present
 * Addis Ababa Science and Technology University
   * BSc, Software Engineering, GPA: 3.75/4.0				                       September 2014 - June 2018
     * Graduated Magna cum laude
@@ -59,9 +59,10 @@ Additional experience
 
 Services and Award
 ======
+* Awarded a Google Cloud Research Credits program ($10000)				                           June 2023
 * Selected for the Google Cloud Research Innovators Program                                 March 2023
+* Contributor at Towards AI                                                              December 2022
 * Received Travel grant from BlackInAI group to attend NeurIPS'22                        November 2022
-* Awarded a Google Cloud Research Credits program ($1000)				                             June 2022
 * Student Volunteer at SPLASH’21 Conference (Chicago, IL)				                         November 2021
 
 Leadership
