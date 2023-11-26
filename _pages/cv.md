@@ -15,9 +15,9 @@ redirect_from:
 Education
 ======
 * Iowa State University
-  * Ph.D., Computer Science, GPA: 3.67/4.0  						                           Jan 2021 - Present
+  * Ph.D., Computer Science, GPA: 3.67/4.0  						                           (Jan 2021 - Present)
 * Addis Ababa Science and Technology University
-  * BSc, Software Engineering, GPA: 3.75/4.0				                       September 2014 - June 2018
+  * BSc, Software Engineering, GPA: 3.75/4.0				                       (September 2014 - June 2018)
     * Graduated Magna cum laude
     * Founded Innovation Club
 
