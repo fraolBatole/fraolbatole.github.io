@@ -23,7 +23,7 @@
 
   .paper-title {
     font-weight: bold;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     display: flex;
     align-items: center;
   }
@@ -32,9 +32,9 @@
     display: inline-block;
     background-color: #3f51b5;
     color: #fff;
-    padding: 1px 2px;
-    border-radius: 1px;
-    font-size: 0.5rem;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-size: 0.6rem;
     margin-right: 8px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -45,7 +45,7 @@
     color: #666;
     font-size: 0.4rem;
     margin-bottom: 0.2rem;
-    margin-left: 44px;
+    margin-left: 24px;
   }
 
   .paper-publication {
@@ -73,7 +73,6 @@
 <div class="publications">
   {% assign prev_year = 0 %}
   <ul>
-    {% for post in site.publications | sort: 'date' | reverse %}
       {% assign current_year = post.date | date: "%Y" %}
       {% if current_year != prev_year %}
         {% unless forloop.first %}</ul>{% endunless %}
@@ -106,6 +105,6 @@
       </li>
       {% assign paper_count = paper_count | plus: 1 %}
       {% if forloop.last %}</ul>{% endif %}
-    {% endfor %}
+
   </ul>
 </div>
