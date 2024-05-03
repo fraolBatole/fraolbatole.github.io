@@ -1,3 +1,71 @@
+<!-- Your existing HTML code -->
+
+<style>
+  .publications {
+    margin-top: 2rem;
+  }
+
+  .year-separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+
+  .publications ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .paper {
+    margin-bottom: 1.5rem;
+  }
+
+  .paper-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .paper-venue {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 8px;
+  }
+
+  .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .paper-publication {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+
+  .paper-links {
+    margin-top: 0.5rem;
+  }
+
+  .paper-links .btn {
+    margin-right: 0.5rem;
+  }
+
+  .bibtex.hidden {
+    display: none;
+  }
+</style>
+
 {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
 {% assign prev_year = 0 %}
 {% assign paper_count = 1 %}
@@ -15,12 +83,15 @@
 
     <li>
       <div class="paper">
-        <div class="paper-title">{{ paper_count }}. {{ post.title }}</div>
+        <div class="paper-title">
+          <span class="paper-venue">{{ post.venue }}</span>
+          {{ paper_count }}. {{ post.title }}
+        </div>
         <div class="paper-authors">{{ post.author }}</div>
         <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
         <div class="paper-links">
           {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
-          {% if post.pdf %}<a href="{{ post.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
+          {% if post.pdf %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
         </div>
         {% if post.bibtex %}
           <div class="bibtex hidden">
