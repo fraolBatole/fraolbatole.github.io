@@ -4,7 +4,7 @@
   }
 
   .year-separator {
-    font-size: 1.0rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -23,7 +23,7 @@
 
   .paper-title {
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     display: flex;
     align-items: center;
   }
@@ -43,7 +43,7 @@
 
   .paper-authors {
     color: #666;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     margin-bottom: 0.2rem;
     margin-left: 24px;
   }
@@ -62,7 +62,7 @@
   }
 
   .paper-links .btn {
-    margin-right: 0.5rem;
+    margin-right: 5.5rem;
   }
 
   .bibtex.hidden {
@@ -87,7 +87,7 @@
             {{ paper_count }}. {{ post.title }}
           </div>
           <div class="paper-authors">{{ post.author }}</div>
-          <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
+          <!-- <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div> -->
           <div class="paper-links">
             {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
             {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
