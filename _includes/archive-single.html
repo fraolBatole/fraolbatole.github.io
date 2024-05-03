@@ -13,28 +13,22 @@
       {% assign paper_count = 1 %}
     {% endif %}
 
-    {% if post.header.teaser %}
-      {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-    {% else %}
-      {% assign teaser = site.teaser %}
-    {% endif %}
-
-    {% if post.id %}
-      {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-    {% else %}
-      {% assign title = post.title %}
-    {% endif %}
-
     <li>
       <div class="paper">
-        <div class="paper-title">{{ paper_count }}. {{ title }}</div>
-        <div class="paper-authors">{{ post.authors }}</div>
-        <div class="paper-publication"><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</div>
+        <div class="paper-title">{{ paper_count }}. {{ post.title }}</div>
+        <div class="paper-authors">{{ post.author }}</div>
+        <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
         <div class="paper-links">
-          {% if post.pdf %}<a href="{{ post.pdf }}" class="btn btn--inverse">PDF</a>{% endif %}
-          {% if post.code %}<a href="{{ post.code }}" class="btn btn--inverse">Code</a>{% endif %}
-          {% if post.website %}<a href="{{ post.website }}" class="btn btn--inverse">Website</a>{% endif %}
+          {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
+          {% if post.pdf %}<a href="{{ post.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
         </div>
+        {% if post.bibtex %}
+          <div class="bibtex hidden">
+            <figure class="highlight">
+              <pre>{{ post.bibtex }}</pre>
+            </figure>
+          </div>
+        {% endif %}
       </div>
     </li>
 
