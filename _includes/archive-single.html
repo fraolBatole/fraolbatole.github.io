@@ -75,11 +75,9 @@
     {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
     {% assign prev_year = 0 %}
     {% assign paper_count = 1 %}
-    {% assign unique_titles = "" %} <!-- Keep track of processed titles -->
-
+    {% assign run_once = true %}
     {% for post in sorted_pubs %}
-      {% unless unique_titles contains post.title %}
-        {% assign unique_titles = unique_titles | append: post.title | append: "," %}
+      {% if run_once %}
         {% assign current_year = post.date | date: "%Y" %}
         {% if current_year != prev_year %}
           {% if prev_year != 0 %}</ul>{% endif %}
@@ -110,9 +108,8 @@
           </div>
         </li>
         {% assign paper_count = paper_count | plus: 1 %}
-      {% endunless %}
+        {% assign run_once = false %}
+      {% endif %}
     {% endfor %}
-    </ul>
   </ul>
 </div>
-
