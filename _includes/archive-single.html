@@ -2,7 +2,6 @@
   .publications {
     margin-top: 2rem;
   }
-
   .year-separator {
     font-size: 1.5rem;
     font-weight: bold;
@@ -11,23 +10,19 @@
     border-bottom: 1px solid #ccc;
     padding-bottom: 0.5rem;
   }
-
   .publications ul {
     list-style: none;
     padding-left: 0;
   }
-
   .paper {
     margin-bottom: 1.5rem;
   }
-
   .paper-title {
     font-weight: bold;
     font-size: 1.1rem;
     display: flex;
     align-items: center;
   }
-
   .paper-venue {
     display: inline-block;
     background-color: #3f51b5;
@@ -40,73 +35,63 @@
     letter-spacing: 1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-
   .paper-authors {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 0.2rem;
-    margin-left: 24px; /* Adjusted indentation */
+    margin-left: 24px;
   }
-
   .paper-publication {
     color: #666;
     font-size: 0.9rem;
     font-style: italic;
     margin-bottom: 0.5rem;
-    margin-left: 24px; /* Adjusted indentation */
+    margin-left: 24px;
   }
-
   .paper-links {
     margin-top: 0.5rem;
-    margin-left: 24px; /* Adjusted indentation */
+    margin-left: 24px;
   }
-
   .paper-links .btn {
     margin-right: 0.5rem;
   }
-
   .bibtex.hidden {
     display: none;
   }
 </style>
 
-{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-{% assign prev_year = 0 %}
-
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %} {% assign prev_year = 0 %} {% assign paper_count = 1 %}
 <div class="publications">
-  <ul>
-    {% for post in sorted_pubs %}
-      {% assign current_year = post.date | date: "%Y" %}
-      {% if current_year != prev_year %}
-        {% if prev_year != 0 %}</ul>{% endif %}
-        <h2 class="year-separator">{{ current_year }}</h2>
-        <ul>
-      {% endif %}
-
-      <li>
-        <div class="paper">
-          <div class="paper-title">
-            <span class="paper-venue">{{ post.venue }}</span>
-            {{ forloop.index }}. {{ post.title }} <!-- Changed paper_count to forloop.index -->
-          </div>
-          <div class="paper-authors">{{ post.author }}</div>
-          <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
-          <div class="paper-links">
-            {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
-            {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
-          </div>
-          {% if post.bibtex %}
-            <div class="bibtex hidden">
-              <figure class="highlight">
-                <pre>{{ post.bibtex }}</pre>
-              </figure>
-            </div>
-          {% endif %}
+  {% for post in sorted_pubs %}
+    {% assign current_year = post.date | date: "%Y" %}
+    {% if current_year != prev_year %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h2 class="year-separator">{{ current_year }}</h2>
+      <ul>
+        {% assign prev_year = current_year %}
+        {% assign paper_count = 1 %}
+    {% endif %}
+    <li>
+      <div class="paper">
+        <div class="paper-title">
+          <span class="paper-venue">{{ post.venue }}</span> {{ paper_count }}. {{ post.title }}
         </div>
-      </li>
-
-      {% if forloop.last %}</ul>{% endif %}
-      {% assign prev_year = current_year %}
-    {% endfor %}
-  </ul>
+        <div class="paper-authors">{{ post.author }}</div>
+        <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
+        <div class="paper-links">
+          {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
+          {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
+        </div>
+        {% if post.bibtex %}
+          <div class="bibtex hidden">
+            <figure class="highlight">
+              <pre>{{ post.bibtex }}</pre>
+            </figure>
+          </div>
+        {% endif %}
+      </div>
+    </li>
+    {% assign paper_count = paper_count | plus: 1 %}
+    {% if forloop.last %}</ul>{% endif %}
+  {% endfor %}
 </div>
