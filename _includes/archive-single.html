@@ -53,7 +53,7 @@
     font-size: 0.9rem;
     font-style: italic;
     margin-bottom: 0.5rem;
-    margin-left: 124px;
+    margin-left: 494px;
   }
 
   .paper-links {
@@ -72,19 +72,18 @@
 
 <div class="publications">
   <ul>
-    {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-    {% assign paper_count = 1 %}
       <li>
         <div class="paper">
           <div class="paper-title">
             <span class="paper-venue">{{ post.venue }}</span>
-            {{ paper_count }}. {{ post.title }}
+            {{ post.title }}
           </div>
           <div class="paper-authors">{{ post.author }}</div>
+          <!-- <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div> -->
           <div class="paper-links">
             {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
             {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
-            {% if post.code %}<a href="{{ post.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>{% endif %}
+            {% if post.code %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">Code</a>{% endif %}
           </div>
           {% if post.bibtex %}
             <div class="bibtex hidden">
