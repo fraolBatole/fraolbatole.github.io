@@ -325,3 +325,50 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+.publications {
+  margin-top: 2rem;
+}
+
+.year-separator {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.publications ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.paper {
+  margin-bottom: 1.5rem;
+}
+
+.paper-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.paper-authors {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.paper-publication {
+  color: #666;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.paper-links {
+  margin-top: 0.5rem;
+}
+
+.paper-links .btn {
+  margin-right: 0.5rem;
+}
