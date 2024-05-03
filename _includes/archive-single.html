@@ -32,18 +32,22 @@
 
   .paper-venue {
     display: inline-block;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #3f51b5;
+    color: #fff;
     padding: 4px 8px;
     border-radius: 4px;
     font-size: 0.9rem;
     margin-right: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
   .paper-authors {
     color: #666;
     font-size: 0.9rem;
     margin-bottom: 0.2rem;
+    margin-left: 24px;
   }
 
   .paper-publication {
@@ -51,10 +55,12 @@
     font-size: 0.9rem;
     font-style: italic;
     margin-bottom: 0.5rem;
+    margin-left: 24px;
   }
 
   .paper-links {
     margin-top: 0.5rem;
+    margin-left: 24px;
   }
 
   .paper-links .btn {
@@ -91,7 +97,7 @@
         <div class="paper-publication"><i>{{ post.periodical }}</i>, {{ post.date | date: "%Y" }}</div>
         <div class="paper-links">
           {% if post.bibtex %}<a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>{% endif %}
-          {% if post.pdf %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
+          {% if post.paperurl %}<a href="{{ post.paperurl }}" class="btn btn-sm z-depth-0" role="button">PDF</a>{% endif %}
         </div>
         {% if post.bibtex %}
           <div class="bibtex hidden">
