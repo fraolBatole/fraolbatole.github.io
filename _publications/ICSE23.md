@@ -3,7 +3,7 @@ title: "Decomposing a Recurrent Neural Network into Modules for Enabling Reusabi
 collection: publications
 permalink: /publication/ICSE23
 date: 2023-05-14
-venue: 'ICSE'23'
+venue: 'ICSE'
 paperurl: 'http://fraolbatole.github.io/files/rnn_icse23.pdf'
 author: 'Sayem Imtiaz, Fraol A. Batole, Astha Sing, Breno Cruz, Rangeet Pan, and Hridesh Rajan'
 citation: 'Imtiaz, Sayem Mohammad, et al. "Decomposing a Recurrent Neural Network into Modules for Enabling Reusability and Replacement." International Conference on Software Engineering (ICSE), Melbourne, Australia, 2023.'
