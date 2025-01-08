@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>New Orleans, Louisiana</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am pursuing a Ph.D. in the computer science program at Iowa State University (ISU) and working as a research assistant at the Laboratory for Software Design under the supervision of [Prof. Hridesh Rajan](https://www.cs.iastate.edu/hridesh). Before joining ISU, I completed a year of graduate-level courses at the University of North Dakota (UND). I earned my undergraduate degree in Software Engineering from Addis Ababa Science and Technology University, where I graduated Magna cum laude.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Research
+------
+My primary research interests revolve around the application of software engineering and program analysis concepts to enhance deep learning models and large language models (LLMs). Specifically, my current work focuses on exploring static analysis methodologies to achieve two main objectives: i) mitigating bugs in deep learning models and ii) improving the performance of LLMs for source code representation. Prior to this, I gained experience working on a shared data science infrastructure for bioinformatics known as [Boag](http://boa.cs.iastate.edu/boag/index.php). 
