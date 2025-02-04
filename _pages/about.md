@@ -16,8 +16,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am pursuing a Ph.D. in the computer science program at Iowa State University (ISU) and working as a research assistant at the Laboratory for Software Design under the supervision of [Prof. Hridesh Rajan](https://www.cs.iastate.edu/hridesh). Before joining ISU, I completed a year of graduate-level courses at the University of North Dakota (UND). I earned my undergraduate degree in Software Engineering from Addis Ababa Science and Technology University, where I graduated Magna cum laude.
+I am a Ph.D. student in Computer Science at Tulane University, where I recently transitioned with my advisor [Prof. Hridesh Rajan](https://www.cs.iastate.edu/hridesh). Prior to joining Tulane, I completed my Master's degree at Iowa State University (ISU) and undertook graduate-level coursework at the University of North Dakota (UND). My academic journey began at Addis Ababa Science and Technology University, where I earned my undergraduate degree in Software Engineering, graduating Magna cum laude.
 
 Research
 ------
-My primary research interests revolve around the application of software engineering and program analysis concepts to enhance deep learning models and large language models (LLMs). Specifically, my current work focuses on exploring static analysis methodologies to achieve two main objectives: i) mitigating bugs in deep learning models and ii) improving the performance of LLMs for source code representation. Prior to this, I gained experience working on a shared data science infrastructure for bioinformatics known as [Boag](http://boa.cs.iastate.edu/boag/index.php). 
+My research lies at the intersection of software engineering and artificial intelligence, with a particular focus on enhancing deep learning models and large language models (LLMs) through novel software engineering methodologies. My current research objectives include:
+
+* **Program Analysis for LLM Enhancement**: Developing novel program analysis techniques to improve large language models' understanding and processing of source code.
+
+* **AI System Reliability**: Investigating and improving the reliability of AI systems through empirical studies and automated analysis techniques.
+
+
+I am privileged to actively collaborate with distinguished researchers in the field, including [Prof. Tien N. Nguyen](https://nguyentien.cs.uiuc.edu/) and [Prof. Danny Dig](https://danny.cs.colorado.edu/), whose expertise has significantly enriched my research perspective. My earlier work contributed to [Boag](http://boa.cs.iastate.edu/boag/index.php), a shared data science infrastructure for bioinformatics. 
