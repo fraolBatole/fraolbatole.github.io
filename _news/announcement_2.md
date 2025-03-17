@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Received a Google Cloud Research Credit awarded of $10,000.
+Received a Google Cloud Research Credit award of $10,000.
