@@ -22,9 +22,8 @@ Research
 ------
 My research lies at the intersection of software engineering and artificial intelligence, with a particular focus on enhancing deep learning models and large language models (LLMs) through novel software engineering methodologies. My current research objectives include:
 
-* **Program Analysis for LLM Enhancement**: Developing novel program analysis techniques to improve large language models' understanding and processing of source code.
+* **Program Analysis for LLMs**: I am exploring LLM‑based agentic systems that bridge program analysis and natural‑language reasoning to automate complex software engineering tasks. 
 
-* **AI System Reliability**: Investigating and improving the reliability of AI systems through empirical studies and automated analysis techniques.
-
+* **AI System Reliability**: Investigating and improving the reliability of AI systems through empirical studies and automated analysis techniques. I also work on verifying and validating agents’ actions to ensure reliability and correctness in real‑world development workflows.
 
 I am privileged to actively collaborate with distinguished researchers in the field, including [Prof. Tien N. Nguyen](https://nguyentien.cs.uiuc.edu/) and [Prof. Danny Dig](https://danny.cs.colorado.edu/), whose expertise has significantly enriched my research perspective. My earlier work contributed to [Boag](http://boa.cs.iastate.edu/boag/index.php), a shared data science infrastructure for bioinformatics. 
