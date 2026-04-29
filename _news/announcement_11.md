@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been awarded the **Best Reviewer Award** (Junior PC) at the International Conference on Mining Software Repositories (MSR) 2026.
+I have been awarded the **Distinguished Reviewer Award** (Junior PC) at the International Conference on Mining Software Repositories (MSR) 2026.
