@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="RefineAct">
+  <rect width="600" height="400" fill="#f3eadb"/>
+  <rect width="600" height="10" fill="#8b5e34"/>
+  <circle cx="535" cy="74" r="34" fill="none" stroke="#8b5e34" stroke-width="3"/>
+  <text x="535" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="700" fill="#8b5e34">FB</text>
+  <text x="44" y="150" font-family="Helvetica, Arial, sans-serif" font-size="18" letter-spacing="4" fill="#8b5e34">TRUSTWORTHY AGENTS</text>
+  <text x="44" y="224" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#6f4a29">RefineAct</text>
+  <text x="44" y="272" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#6b5d4a">Runtime verification of LLM agent actions</text>
+  <text x="44" y="352" font-family="Helvetica, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1" fill="#8b5e34">ASE 2026</text>
+</svg>

@@ -42,6 +42,7 @@ layout: default
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
+      <hr class="section-sep" />
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
@@ -58,10 +59,11 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
+      <hr class="section-sep" />
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
-      {% include selected_papers.liquid %}
+      <div class="publications-cards">{% include selected_papers.liquid %}</div>
     {% endif %}
 
     <!-- Social -->

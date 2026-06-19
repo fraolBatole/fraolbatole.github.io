@@ -1,34 +1,21 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Only advisors / mentors are linked here; all other coauthors render as plain text.
+# Keys are lowercased last names; `firstname` lists the spellings that appear in the bib.
+"rajan":
+  - firstname: ["Hridesh"]
+    url: https://hridesh.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"nguyen":
+  - firstname: ["Tien", "Tien N.", "Tien N"]
+    url: https://personal.utdallas.edu/~tien.n.nguyen/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"dig":
+  - firstname: ["Danny"]
+    url: https://danny.cs.colorado.edu/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"khomh":
+  - firstname: ["Foutse"]
+    url: https://www.khomh.net/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"dyer":
+  - firstname: ["Robert"]
+    url: # TODO: add Robert Dyer's homepage URL (stays plain text until filled)

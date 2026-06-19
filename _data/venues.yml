@@ -1,9 +1,35 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Keys must match the `abbr` field of each bib entry exactly.
+# NOTE: jekyll-scholar renders the apostrophe as a curly ’ (U+2019), so the keys
+# below use ’ (not a straight '); otherwise the lookup silently misses.
+# `color` sets the badge background; a `url` makes the badge text render white.
+"ICSE’23":
+  url: https://conf.researchr.org/series/icse
+  color: "#0b5cad"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ICSE’25":
+  url: https://conf.researchr.org/series/icse
+  color: "#0b5cad"
 
-"Vision":
-  color: "#009f36"
+"ICSME’25":
+  url: https://conf.researchr.org/series/icsme
+  color: "#0d7d8c"
+
+"IDE’25":
+  url: https://conf.researchr.org/series/ide
+  color: "#b5651d"
+
+"ASE’26":
+  url: https://conf.researchr.org/series/ase
+  color: "#2f7d4f"
+
+"FSE’25":
+  url: https://conf.researchr.org/series/fse
+  color: "#5a4b8a"
+
+"FSE’26":
+  url: https://conf.researchr.org/series/fse
+  color: "#5a4b8a"
+
+"TSE’26":
+  url: https://www.computer.org/csdl/journal/ts
+  color: "#9c2b2b"

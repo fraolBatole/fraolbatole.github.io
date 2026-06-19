@@ -1,7 +1,15 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% --------------------------------------------------------------------------
+% How to add links/badges to an entry (al-folio renders a button per field):
+%   code={https://github.com/you/repo}   -> "Code" button   (TODO: add real repo URLs)
+%   abstract={Full paper abstract...}     -> "Abs" button    (TODO: paste real abstracts)
+%   slides={slides.pdf}  poster={poster.pdf}  website={https://...}
+%   google_scholar_id=<citation_for_view id>  -> live citation badge
+%     (find it in the Scholar "Cite" URL; the global badge is already enabled)
+% arXiv IDs below are real (taken from the existing arXiv PDF links).
+% --------------------------------------------------------------------------
 
 @inproceedings{imtiaz2023decomposing,
   bibtex_show={true},
@@ -13,19 +21,34 @@
   publisher={ICSE},
   abbr={ICSE'23},
   pdf={https://arxiv.org/pdf/2212.05970.pdf},
+  arxiv={2212.05970},
   organization={IEEE}
 }
 
 @inproceedings{batole2025localizeAgent,
   bibtex_show={true},
   title={An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization},
-  author={Batole, Fraol and OBrien, David and Nguyen N., Tien and Dyer, Robert and Rajan, Hridesh},
+  author={Batole, Fraol and OBrien, David and Nguyen, Tien N. and Dyer, Robert and Rajan, Hridesh},
   year={2025},
   booktitle={2025 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},
   publisher={ICSE},
   abbr={ICSE'25},
   organization={IEEE},
   pdf={LocalizeAgent.pdf},
+  code={https://github.com/fraolBatole/LocalizeAgent},
+  selected={true}
+}
+
+@inproceedings{batole2026refineact,
+  bibtex_show={true},
+  title={RefineAct: Automatic Runtime Verification of LLM Agent Actions},
+  author={Batole, Fraol and Khomh, Foutse and Rajan, Hridesh},
+  year={2026},
+  booktitle={2026 IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  publisher={ASE},
+  abbr={ASE'26},
+  organization={IEEE},
+  code={https://github.com/fraolBatole/aligned},
   selected={true}
 }
 
@@ -37,8 +60,9 @@
   location = {Auchland, New Zealand},
   month = {Sep 7-12},
   year = {2025},
-  abbr={ICSME'25},  
+  abbr={ICSME'25},
   pdf={https://arxiv.org/pdf/2503.20934.pdf},
+  arxiv={2503.20934},
   selected={false}
 }
 
@@ -62,8 +86,9 @@
   location = {Trondheim, Norway},
   month = {June 23-June 27},
   year = {2025},
-  abbr={FSE'25},  
+  abbr={FSE'25},
   pdf={https://arxiv.org/pdf/2502.07072.pdf},
+  arxiv={2502.07072},
   selected={true}
 }
 
@@ -86,8 +111,7 @@
   title = {CoRenameAgent: A Human-In-The-Loop, Multi-Agent Tool for Coordinated Rename Refactoring},
   booktitle = {FSE'2026: The 34th ACM Foundations of Software Engineering (Tool Demo Track)},
   year = {2026},
-  abbr={FSE'26},
-  selected={true}
+  abbr={FSE'26}
 }
 
 

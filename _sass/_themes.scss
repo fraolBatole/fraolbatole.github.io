@@ -5,19 +5,28 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #f8f2e8;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-text-color: #2f271f;
+  --global-text-color-light: #72675a;
+  --global-theme-color: #7b5634;
+  --global-hover-color: #5f3e25;
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-divider-color: rgba(91, 63, 39, 0.16);
+  --global-card-bg-color: #fffaf1;
+  --global-card-soft: #fbf4e8; // soft warm surface for content cards
+  --global-card-highlight: rgba(255, 255, 255, 0.38);
+  --global-card-shadow-color: rgba(67, 45, 27, 0.08);
+  --global-card-shadow-color-strong: rgba(67, 45, 27, 0.12);
+  --global-subtle-heading-color: rgba(91, 63, 39, 0.28);
+  --global-subtle-rule-color: rgba(91, 63, 39, 0.12);
+  --global-venue-bg-color: rgba(123, 86, 52, 0.1);
+  --global-venue-border-color: rgba(123, 86, 52, 0.28);
+  --global-venue-text-color: #694525;
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -79,15 +88,24 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
+  --global-theme-color: #{$tan-color};
+  --global-hover-color: #{$tan-color};
+  --global-hover-text-color: #{$grey-color-dark};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-card-soft: #23272c; // soft elevated surface for content cards
+  --global-card-highlight: rgba(255, 255, 255, 0.025);
+  --global-card-shadow-color: rgba(0, 0, 0, 0.24);
+  --global-card-shadow-color-strong: rgba(0, 0, 0, 0.34);
+  --global-subtle-heading-color: rgba(200, 162, 124, 0.3);
+  --global-subtle-rule-color: rgba(200, 162, 124, 0.16);
+  --global-venue-bg-color: rgba(200, 162, 124, 0.12);
+  --global-venue-border-color: rgba(200, 162, 124, 0.32);
+  --global-venue-text-color: #{$tan-color};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
     #{color.channel($white-color, "green", $space: rgb)},
