@@ -6,7 +6,7 @@ img: assets/img/projects/refineact.svg
 venue: ASE 2026
 importance: 1
 category: Trustworthy AI Agents for Code
-github: https://github.com/fraolBatole/aligned
+github: https://github.com/fraolBatole/RefineAct
 first_author: true
 related_publications: true
 ---
@@ -30,7 +30,7 @@ related_publications: true
   </div>
   <div class="star-item">
     <span class="star-label">Results</span>
-    <p>The work is reported in an ASE 2026 paper, and the public lightweight implementation is linked as <code>aligned</code> while the full paper artifact is prepared for release.</p>
+    <p>Accepted at ASE 2026. Across 144 agent tasks spanning five ToolEmu domains, RefineAct reduces failure incidence from 77% to 39% while improving task completion quality from 1.0 to 1.9 on a 0&ndash;3 scale, and agents self-correct in 68% of blocked actions.</p>
   </div>
   <div class="star-item">
     <span class="star-label">Why it matters</span>
@@ -38,6 +38,6 @@ related_publications: true
   </div>
 </div>
 
-<p class="proj-links"><a href="https://github.com/fraolBatole/aligned">aligned</a>, a lightweight, non-formal implementation, is available now. The full code from the paper will be released shortly.</p>
+<p class="proj-links">The code from the paper is available at <a href="https://github.com/fraolBatole/RefineAct">RefineAct</a>.</p>
 
 The formal approach and complete evaluation are in the paper {% cite batole2026refineact %}.

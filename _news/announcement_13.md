@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have started my internship as a Student Researcher with the **GitHub Copilot** team at **Microsoft**, working on coding agents.
+I have started my internship as a Student Researcher with the **GitHub Copilot** team at **Microsoft**. I will be working on reliability of coding agents.

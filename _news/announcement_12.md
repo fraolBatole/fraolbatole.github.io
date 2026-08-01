@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **"RefineAct: Automatic Runtime Verification of LLM Agent Actions"** has been accepted at **ASE 2026**! 🎉 A lightweight, non-formal implementation lives at [aligned](https://github.com/fraolBatole/aligned) — full code coming soon.
+Our paper **"RefineAct: Automatic Runtime Verification of LLM Agent Actions"** has been accepted at **ASE 2026**! 🎉 RefineAct implementation lives at [RefineAct Code](https://github.com/fraolBatole/RefineAct).
